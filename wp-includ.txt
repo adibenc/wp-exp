@@ -1,0 +1,140 @@
+xmlrpc.php:include( dirname( __FILE__ ) . '/wp-load.php' );
+wp-content/plugins/akismet/class.akismet.php:		include( $file );
+wp-settings.php:	WP_DEBUG ? include( WP_CONTENT_DIR . '/advanced-cache.php' ) : @include( WP_CONTENT_DIR . '/advanced-cache.php' );
+wp-settings.php:		include( STYLESHEETPATH . '/functions.php' );
+wp-settings.php:		include( TEMPLATEPATH . '/functions.php' );
+wp-includes/update.php:	include( ABSPATH . WPINC . '/version.php' );
+wp-includes/update.php:	include( ABSPATH . WPINC . '/version.php' );
+wp-includes/update.php:	include( ABSPATH . WPINC . '/version.php' );
+wp-includes/update.php:	include( ABSPATH . WPINC . '/version.php' );
+wp-includes/class-wp-editor.php:					include( ABSPATH . 'wp-admin/includes/media.php' );
+wp-includes/deprecated.php:		include( WP_PLUGIN_DIR . '/press-this/class-wp-press-this-plugin.php' );
+wp-includes/deprecated.php:		include( WP_PLUGIN_DIR . '/press-this/class-wp-press-this-plugin.php' );
+wp-includes/load.php:	include( ABSPATH . '.maintenance' );
+wp-includes/template-loader.php:	include( ABSPATH . 'wp-trackback.php' );
+wp-includes/template-loader.php:		include( $template );
+wp-includes/embed-template.php:include( ABSPATH . WPINC . '/theme-compat/embed.php' );
+wp-includes/script-loader.php:		include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-includes/script-loader.php:	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-includes/theme.php:function _wp_customize_include() {
+wp-includes/class-simplepie.php:	include( $file );
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update.php:			include( WP_PLUGIN_DIR . '/' . $plugin );
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update.php:		include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/options-general.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-general.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/includes/update.php:	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-admin/includes/plugin.php:			include( ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/includes/plugin.php:			include( ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/includes/plugin.php:		include( WP_PLUGIN_DIR . '/' . dirname($file) . '/uninstall.php' );
+wp-admin/includes/plugin.php:		include( WP_PLUGIN_DIR . '/' . $file );
+wp-admin/includes/plugin.php:	include( WP_PLUGIN_DIR . '/' . $plugin );
+wp-admin/includes/class-core-upgrader.php:		include( ABSPATH . WPINC . '/version.php' ); // $wp_version;
+wp-admin/includes/class-core-upgrader.php:		include( ABSPATH . WPINC . '/version.php' ); // $wp_version; // x.y.z
+wp-admin/includes/dashboard.php:		include( ABSPATH . WPINC . '/version.php' );
+wp-admin/includes/credits.php:	include( ABSPATH . WPINC . '/version.php' );
+wp-admin/includes/import.php:	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-admin/includes/class-wp-theme-install-list-table.php:		include( ABSPATH . 'wp-admin/includes/theme-install.php' );
+wp-admin/includes/translation-install.php:	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-admin/includes/translation-install.php:	include( ABSPATH . WPINC . '/version.php' ); // include an unmodified $wp_version
+wp-admin/includes/network.php:		include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/includes/network.php:		include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/includes/network.php:		include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/includes/class-wp-community-events.php:		include( ABSPATH . WPINC . '/version.php' );
+wp-admin/includes/update-core.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/includes/class-wp-plugin-install-list-table.php:		include( ABSPATH . 'wp-admin/includes/plugin-install.php' );
+wp-admin/includes/deprecated.php:function tinymce_include() {
+wp-admin/includes/deprecated.php:	include( ABSPATH . 'wp-admin/includes/class-wp-upgrader.php' );
+wp-admin/includes/deprecated.php:	include( ABSPATH . 'wp-admin/includes/class-wp-upgrader.php' );
+wp-admin/includes/deprecated.php:	include( ABSPATH . 'wp-admin/includes/class-wp-upgrader.php' );
+wp-admin/includes/upgrade.php:				$line = str_replace("<?php include(ABSPATH . 'wp-comments.php'); ?>", "<?php comments_template(); ?>", $line);
+wp-admin/includes/plugin-install.php:		include( ABSPATH . WPINC . '/version.php' );
+wp-admin/includes/comment.php:	include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/includes/theme.php:			include( ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/includes/theme.php:			include( ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/includes/theme.php:		include( ABSPATH . WPINC . '/version.php' );
+wp-admin/freedoms.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/freedoms.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/user-edit.php:include(ABSPATH . 'wp-admin/admin-header.php');
+wp-admin/user-edit.php:include( ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/link.php:		include( ABSPATH . 'wp-admin/edit-link-form.php' );
+wp-admin/link.php:		include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/credits.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/credits.php:	include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/credits.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/network/site-themes.php:<?php include(ABSPATH . 'wp-admin/admin-footer.php'); ?>
+wp-admin/network/themes.php:			include(ABSPATH . 'wp-admin/update.php');
+wp-admin/network/themes.php:include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/network/settings.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/network/settings.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/network/upgrade.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/network/index.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/import.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/export.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/about.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/about.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/theme-install.php:include(ABSPATH . 'wp-admin/admin-header.php');
+wp-admin/theme-install.php:include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/options-writing.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-writing.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/edit-comments.php:include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/post-new.php:		include( ABSPATH . 'wp-admin/edit-form-blocks.php' );
+wp-admin/post-new.php:		include( ABSPATH . 'wp-admin/edit-form-advanced.php' );
+wp-admin/post-new.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/network.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/network.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/post.php:		include( ABSPATH . 'wp-admin/edit-form-blocks.php' );
+wp-admin/post.php:	include( ABSPATH . 'wp-admin/edit-form-advanced.php' );
+wp-admin/post.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/upload.php:	include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/upload.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/options-discussion.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-discussion.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/media-new.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/theme-editor.php:include(ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/press-this.php:		include( WP_PLUGIN_DIR . '/press-this/class-wp-press-this-plugin.php' );
+wp-admin/nav-menus.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/edit-tags.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/privacy.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/ms-delete-site.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/update-core.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update-core.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update-core.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/update-core.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/edit.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/plugins.php:			include(ABSPATH . 'wp-admin/update.php');
+wp-admin/plugins.php:include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/plugin-install.php:include(ABSPATH . 'wp-admin/admin-header.php');
+wp-admin/plugin-install.php:include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/admin.php:			include(WPMU_PLUGIN_DIR . "/$plugin_page");
+wp-admin/admin.php:			include(WP_PLUGIN_DIR . "/$plugin_page");
+wp-admin/admin.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/admin.php:	include(ABSPATH . 'wp-admin/admin-footer.php');
+wp-admin/comment.php:	include( ABSPATH . 'wp-admin/edit-form-comment.php' );
+wp-admin/comment.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/async-upload.php:	include( ABSPATH . 'wp-admin/includes/ajax-actions.php' );
+wp-admin/term.php:include( ABSPATH . 'wp-admin/edit-tag-form.php' );
+wp-admin/term.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/plugin-editor.php:	include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/plugin-editor.php:	include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/plugin-editor.php:include(ABSPATH . "wp-admin/admin-footer.php");
+wp-admin/link-add.php:include( ABSPATH . 'wp-admin/edit-link-form.php' );
+wp-admin/user-new.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/my-sites.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/options-reading.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-reading.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/index.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-media.php:include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/options-media.php:<?php include( ABSPATH . 'wp-admin/admin-footer.php' ); ?>
+wp-admin/tools.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/link-manager.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/options.php:include( ABSPATH . 'wp-admin/admin-header.php' ); ?>
+wp-admin/options.php:include( ABSPATH . 'wp-admin/admin-footer.php' );
+wp-admin/users.php:	include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/users.php:	include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/users.php:	include( ABSPATH . 'wp-admin/admin-header.php' );
+wp-admin/users.php:include( ABSPATH . 'wp-admin/admin-footer.php' );

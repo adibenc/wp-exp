@@ -1,0 +1,11 @@
+wp-includes/class-wp-query.php:	 * Sets up the WordPress query by parsing query string.
+wp-includes/class-wp-query.php:	 * Sets up the WordPress query, if parameter is not empty.
+wp-includes/query.php: * Whether current WordPress query has results to loop over.
+wp-includes/general-template.php: * Retrieves the contents of the search WordPress query variable.
+wp-includes/class-wp-comment-query.php:	 * Sets up the WordPress query for retrieving comments.
+wp-includes/class-wp.php:	 * Parse request to find correct WordPress query.
+wp-includes/class-wp-network-query.php:	 * Sets up the WordPress query for retrieving networks.
+wp-includes/class-wp-site-query.php:	 * Sets up the WordPress query for retrieving sites.
+wp-includes/functions.php: * Set up the WordPress query.
+wp-includes/canonical.php: * not exist based on exact WordPress query. Will instead try to parse the URL
+wp-blog-header.php:	// Set up the WordPress query.
